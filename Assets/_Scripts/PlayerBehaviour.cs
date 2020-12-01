@@ -76,7 +76,7 @@ public class PlayerBehaviour : MonoBehaviour
         m_dustTrail = GetComponentInChildren<ParticleSystem>();
 
         sounds = GetComponents<AudioSource>();
-        vcam1 = FindObjectOfType<CinemachineVirtualCamera>();
+        //vcam1 = FindObjectOfType<CinemachineVirtualCamera>();
         perlin = vcam1.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
     }
 
